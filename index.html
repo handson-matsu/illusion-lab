@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f5f2">
+  <meta name="description" content="見る、予想する、自分の目で確かめる。15の錯視を体験する実験ゲーム、Illusion Lab / 錯視ラボ。">
+  <title>Illusion Lab — 錯視ラボ</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23d5f45b'/%3E%3Cpath d='M6 20Q20 3 34 20Q20 37 6 20Z' fill='none' stroke='%23212623' stroke-width='3'/%3E%3Ccircle cx='20' cy='20' r='5' fill='%23212623'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="questions.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Illusion Lab ホーム"><span class="brand-icon" aria-hidden="true">◎</span><span>Illusion Lab<span class="brand-jp">錯視ラボ</span></span></a>
+    <button class="help-button" id="help">遊び方 <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="app"></main>
+  <footer class="site-footer"><span>見えることと、測れること。</span><span>ILLUSION LAB <span class="footer-divider">/</span> 15 EXPERIMENTS</span></footer>
+  <dialog id="help-dialog" aria-labelledby="help-title"><form method="dialog"><button class="close" aria-label="閉じる">×</button></form><p class="eyebrow">HOW TO PLAY</p><h2 id="help-title">あなたの目で、確かめよう。</h2><ol><li>図形を見て、答えを選ぶ。</li><li>正解・不正解をチェック。</li><li><b>VERIFY</b>で背景を取り除き、図形を比べる。</li><li>理由を読んで、次の実験へ。</li></ol><p>全15問。「同じ」ことも、本当に違うこともあります。時間制限はありません。</p><p class="muted">色・明るさの見え方は画面や環境でも変わります。これは視覚能力を評価するテストではありません。</p></dialog>
+  <noscript>このアプリを遊ぶにはJavaScriptを有効にしてください。</noscript>
+</body>
+</html>
